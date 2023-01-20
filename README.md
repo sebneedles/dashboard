@@ -20,3 +20,13 @@
 1. Add logo
 2. Add menu
 3. Add Datas in menu items
+
+# Step 4: Deploy App to firebase
+
+1. Create App in firebase
+2. npm install -g firebase-tools
+3. firebase login
+4. firebase init
+5. Select options
+6. npm run build
+7. firebase deploy
