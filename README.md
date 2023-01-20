@@ -14,3 +14,9 @@
 7. npm install @mui/material
 8. npm install --save react-circular-progressbar
 9. install google font "inter"
+
+# Step 3: Add components Sidebar
+
+1. Add logo
+2. Add menu
+3. Add Datas in menu items
