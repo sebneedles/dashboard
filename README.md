@@ -30,3 +30,11 @@
 5. Select options
 6. npm run build
 7. firebase deploy
+
+# Step 5: Add mainDash
+
+1. Add MainDash.jsx & MainDash.jsx
+2. Add Cards.jsx & Cards.css
+3. Add Card.jsx & Card.css
+4. Install npm install --save react-apexcharts apexcharts
+5. Styling Charts components
