@@ -43,3 +43,10 @@
 
 1. Add Table.jsx & Table.css
 2. Styling Table
+
+# Step 7: Add RightSide
+
+1. Add RightSide.jsx & RightSide.css
+2. Add Updates.jsx & Updates.css
+3. Styling Update
+4. Add CustomerReview.jsx
