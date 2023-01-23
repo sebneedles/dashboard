@@ -50,3 +50,9 @@
 2. Add Updates.jsx & Updates.css
 3. Styling Update
 4. Add CustomerReview.jsx
+
+# Step 8: Responsive design
+
+1. Add responsive for 1200px endpoint
+2. Add responsive for 768px
+3. Add useState for sidebar expanded on 768px screen
