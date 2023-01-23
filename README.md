@@ -38,3 +38,8 @@
 3. Add Card.jsx & Card.css
 4. Install npm install --save react-apexcharts apexcharts
 5. Styling Charts components
+
+# Step 6: Add Table
+
+1. Add Table.jsx & Table.css
+2. Styling Table
