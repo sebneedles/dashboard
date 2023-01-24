@@ -115,3 +115,39 @@ export const UpdatesData = [
     time: '2 hours ago',
   },
 ];
+
+/* ******************************************************
+ORDERS DATA
+****************************************************** */
+export const OrdersData = [
+  {
+    product: 'Lasania Chicken Fri',
+    trackingId: 18908421,
+    date: '2 March 2022',
+    status: 'Approved',
+  },
+  {
+    product: 'Big Baza Bang',
+    trackingId: 18908422,
+    date: '2 March 2022',
+    status: 'Pending',
+  },
+  {
+    product: 'Mouth Freshner',
+    trackingId: 18908423,
+    date: '2 March 2022',
+    status: 'Approved',
+  },
+  {
+    product: 'Cupcake',
+    trackingId: 18908424,
+    date: '2 March 2022',
+    status: 'Delivered',
+  },
+  {
+    product: 'Cheesecake',
+    trackingId: 18908425,
+    date: '2 March 2022',
+    status: 'Delivered',
+  },
+];

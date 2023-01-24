@@ -7,17 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import './Table.css';
-
-function createData(name, trackingId, date, status) {
-  return { name, trackingId, date, status };
-}
-
-const rows = [
-  createData('Lasania Chicken Fri', 18908424, '2 March 2022', 'Approved'),
-  createData('Big Baza Bang', 18908424, '2 March 2022', 'Pending'),
-  createData('Mouth Freshner', 18908424, '2 March 2022', 'Approved'),
-  createData('Cupcake', 18908424, '2 March 2022', 'Delivered'),
-];
+import { OrdersData } from '../../Data/Data';
 
 const makeStyles = (status) => {
   if (status === 'Approved') {
@@ -57,19 +47,19 @@ export default function BasicTable() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {rows.map((row) => (
+            {OrdersData.map((order) => (
               <TableRow
-                key={row.name}
+                key={order.trackingId}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
                 <TableCell component="th" scope="row">
-                  {row.name}
+                  {order.product}
                 </TableCell>
-                <TableCell align="left">{row.trackingId}</TableCell>
-                <TableCell align="left">{row.date}</TableCell>
+                <TableCell align="left">{order.trackingId}</TableCell>
+                <TableCell align="left">{order.date}</TableCell>
                 <TableCell align="left">
-                  <span className="status" style={makeStyles(row.status)}>
-                    {row.status}
+                  <span className="status" style={makeStyles(order.status)}>
+                    {order.status}
                   </span>
                 </TableCell>
                 <TableCell align="left" className="Details">

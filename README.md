@@ -60,3 +60,5 @@
 # Step 9: Fix Global Design
 
 1. Fix responsive elements
+
+# Step 10: Add Table datas in Data.js
