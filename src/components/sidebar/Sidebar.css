@@ -4,6 +4,8 @@
   position: relative;
   padding-top: 4rem;
   transition: all 0.3s ease;
+  border-right: 1px solid #b98f8f5b;
+  padding-right: 20px;
 }
 
 /* LOGO */

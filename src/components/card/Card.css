@@ -1,7 +1,7 @@
 .CompactCard {
   display: flex;
   flex: 1;
-  height: 7rem !important;
+  height: 12rem !important;
   border-radius: 0.7rem;
   color: white;
   position: relative;
@@ -65,9 +65,10 @@
 .ExpandedCard {
   position: absolute;
   width: 60%;
-  height: 70vh;
-  z-index: 9;
-  left: 13rem;
+  height: 60vh;
+  z-index: 8;
+  left: 20%;
+  top: 24%;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -96,10 +97,14 @@
 RESPONSIVE DESIGN
 ******************************************************** */
 @media screen and (max-width: 1200px) {
+  .CompactCard {
+    height: 7rem !important;
+  }
+
   .ExpandedCard {
-    top: 2rem;
-    height: 75vh;
-    left: 6rem;
+    top: 8rem;
+    height: 60vh;
+    left: 19%;
   }
 }
 
@@ -107,7 +112,7 @@ RESPONSIVE DESIGN
   .ExpandedCard {
     top: 8rem;
     height: 50%;
-    left: 15px;
+    left: 7%;
     width: 80%;
   }
 }

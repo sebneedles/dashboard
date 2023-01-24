@@ -1,6 +1,6 @@
 .Cards {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .parentContainer {
@@ -15,7 +15,7 @@ RESPONSIVE DESIGN
     flex-direction: column;
   }
   .parentContainer {
-    height: 9rem;
+    height: 10rem;
   }
 }
 
