@@ -24,7 +24,7 @@ const CustomerReview = () => {
       },
       stroke: {
         curve: 'smooth',
-        colors: ['#ff929f'],
+        colors: ['var(--fifth-color)'],
       },
       tooltip: {
         x: {

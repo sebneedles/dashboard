@@ -1,11 +1,11 @@
 import {
-  UilEstate,
   UilClipboardAlt,
   UilUsersAlt,
   UilPackage,
   UilChart,
   UilMoneyWithdrawal,
   UilUsdSquare,
+  UilDashboard,
 } from '@iconscout/react-unicons';
 import img1 from '../imgs/img1.png';
 import img2 from '../imgs/img2.png';
@@ -16,7 +16,7 @@ SIDEBAR DATA
 ****************************************************** */
 export const SidebarData = [
   {
-    icon: UilEstate,
+    icon: UilDashboard,
     heading: 'Dashboard',
   },
   {
@@ -44,8 +44,9 @@ export const CardsData = [
   {
     title: 'Sales',
     color: {
-      backGround: 'linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)',
-      boxShadow: '0px 10px 20px 0px #e0c6f5',
+      backGround: 'var(--first-color)',
+      boxShadow: '0px 2px 10px 0px var(--first-color)',
+      backGround2: 'white',
     },
     barValue: 70,
     value: '25,970',
@@ -60,8 +61,9 @@ export const CardsData = [
   {
     title: 'Revenue',
     color: {
-      backGround: 'linear-gradient(180deg, #ff919d 0%, #fc929d 100%)',
-      boxShadow: '0px 10px 20px 0px #fdc0c7',
+      backGround: 'var(--fifth-color)',
+      boxShadow: '0px 2px 10px 0px var(--fifth-color)',
+      backGround2: 'white',
     },
     barValue: 80,
     value: '14,270',
@@ -76,9 +78,9 @@ export const CardsData = [
   {
     title: 'Expenses',
     color: {
-      backGround:
-        'linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255, 202, 113) -46.42%)',
-      boxShadow: '0px 10px 20px 0px #f9d59b',
+      backGround: 'var(--third-color)',
+      boxShadow: '0px 2px 10px 0px var(--third-color)',
+      backGround2: 'white',
     },
     barValue: 60,
     value: '4,270',

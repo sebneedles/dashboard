@@ -4,20 +4,32 @@
   --black: #242d49;
   --gray: #788097;
   --purple: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
-  --pink: #ff919d;
-  --glass: rgba(255, 255, 255, 0.54);
+  --first-color: #1a6675;
+  --second-color: #80e3f7;
+  --second-color-active: #80e3f785;
+  --third-color: #36d5f5;
+  --fourth-color: #48727a;
+  --fifth-color: #2ba9c2;
+  --card-color: #f2fdff;
+  --blue: #2ba9c2;
+  --blue-dark: #1a6675;
+  --blue-light: #80e3f7;
+  --glass: rgba(255, 255, 255, 0.9);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-  --activeItem: #f799a354;
+  --activeItem: #80e3f7;
+  --grd-1: #80e3f7;
+  --grd-2: #36d5f5;
+  --grd-3: #48727a;
 }
 
 .App {
   font-family: 'Inter', sans-serif;
   background: linear-gradient(
     106.37deg,
-    #ffe1bc 29.63%,
-    #ffcfd1 51.55%,
-    #f3c6f1 90.85%
+    var(--second-color) 29.63%,
+    var(--third-color) 51.55%,
+    var(--fourth-color) 90.85%
   );
   height: 100vh;
   display: flex;

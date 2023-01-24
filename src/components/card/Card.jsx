@@ -72,9 +72,12 @@ function ExpandedCard({ param, setExpanded }) {
       dataLabels: {
         enabled: false,
       },
+      markers: {
+        colors: ['var(--first-color)'],
+      },
       stroke: {
         curve: 'smooth',
-        colors: ['white'],
+        colors: ['var(--first-color)'],
       },
       tooltip: {
         x: {
@@ -102,12 +105,18 @@ function ExpandedCard({ param, setExpanded }) {
     <motion.div
       className="ExpandedCard"
       style={{
-        background: param.color.backGround,
+        background: param.color.backGround2,
         boxShadow: param.color.boxShadow,
       }}
       layoutId="expandableCard"
     >
-      <div style={{ alignSelf: 'flex-end', cursor: 'pointer', color: 'white' }}>
+      <div
+        style={{
+          alignSelf: 'flex-end',
+          cursor: 'pointer',
+          color: 'var(--first-color)',
+        }}
+      >
         <UilTimes onClick={setExpanded} />
       </div>
       <span>{param.title}</span>

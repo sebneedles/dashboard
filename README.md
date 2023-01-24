@@ -62,3 +62,5 @@
 1. Fix responsive elements
 
 # Step 10: Add Table datas in Data.js
+
+# Step 11: Change global colors Application
